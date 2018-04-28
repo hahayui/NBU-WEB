@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer {
+    background-color: #343A40;
+    border-top: 3px solid #ffffff;
+}
+
+.imgSocial {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.imgSocial a {
+    padding: 0px 5px;
+    text-decoration: none;
+}

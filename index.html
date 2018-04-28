@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="theme-color" content="#F7931A">
+    <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+    <link rel="icon" href="./images/bitcoin.png">
+    <title>Биткойн</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a href="./index.html" class="navbar-brand"><img src="./images/logonav.png" alt="logonav"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#firstRow" class="nav-link">Начало</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/facts.html" class="nav-link">Факти</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/developers.html" class="nav-link">Разработчици</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/individuals.html" class="nav-link">Частни лица</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/comapnies.html" class="nav-link">Комапании</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/FAQ.html" class="nav-link">ЧЗВ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <!-- PAGE CONTENT -->
+
+        <!--FIRST ROW-->
+        <div class="row justify-content-center" id="firstRow">
+            <div class="col-12" id="buttonBTCInfo" data-toggle="collapse" data-target="#collapseBtcInfo" aria-expanded="true" aria-controls="collapseBtcInfo" role="note">
+                <div class="row" id="info">
+                    <div class="col-12 border border-white border-left-0 border-right-0" id="p">
+                        <p class="h1 text-white">
+                            <!-- HERE COMES THE BTC RATE FROM THE JS FILE -->
+                        </p>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <img id="imgBTC" class="img-fluid" alt="sign" src="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CLOSING FIRST ROW -->
+
+        <!-- SECOND ROW -->
+        <div class="row justify-content-center mb-5">
+            <!-- COLLAPSE -->
+            <div class="col-12 collapse text-white" id="collapseBtcInfo">
+                <div class="row">
+                    <p class="col-12 col-lg-6" id="lowestPriceForTheDay">
+                        <!-- HERE COMES THE BTC RATE FOR THE DAY FROM THE JS FILE -->
+                    </p>
+                    <p class="col-12 col-lg-6" id="highestPriceForTheDay">
+                        <!-- HERE COMES THE BTC RATE FOR THE DAY FROM THE JS FILE -->
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- CLOSING SECOND ROW -->
+        <!-- FOOTER -->
+        <footer class="row">
+            <div class="col-12 imgSocial">
+                <a class="align-middle" href="https://www.facebook.com" title="Facebook" target="_blank">
+                    <img src="./images/facebook.png" alt="facebook">
+                </a>
+                <a href="https://www.instagram.com" title="Instagram" target="_blank">
+                    <img src="./images/instagram.png" alt="instagram">
+                </a>
+                <a href="https://www.twitter.com" title="Twitter" target="_blank">
+                    <img src="./images/twitter.png" alt="twitter">
+                </a>
+            </div>
+            <div class="col-12 footerInfo">
+                <p>
+                    Цената за един биткойн на страницата се обновява на всеки 15 секунди.
+                    <br> Информцията се извлича от <a href="https://www.bitstamp.net/api/v2/ticker_hour/btceur/" target="_blank" class="specialLink">www.bitstamp.net</a>
+                </p>
+            </div>
+        </footer>
+        <!-- CLOSING FOOTER -->
+    </div>
+    <!-- CLOSING MAIN CONTAINER -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="./js/index.js">
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('../images/bitcoin_slideshow_6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer {
+    background-color: #343A40;
+    border-top: 3px solid #ffffff;
+}
+
+.imgSocial {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.imgSocial a {
+    padding: 0px 5px;
+    text-decoration: none;
+}
+
+.card {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.card-img-top {
+    width: 398px;
+    height: 268px;
+}
+
+#secondRowOfCards {
+    background-color: #343A40;
+}

@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('./../images/bitcoin_slideshow_1.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Istok Web', sans-serif;
+}
+
+#firstRow {
+    cursor: pointer;
+}
+
+#buttonBTCInfo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#collapseBtcInfo p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #343A40;
+    border-top: 3px solid #ffffff;
+}
+
+.imgSocial {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.imgSocial a {
+    padding: 0px 5px;
+    text-decoration: none;
+}
+
+.footerInfo {
+    color: #ffffff;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.specialLink {
+    color: #ffffff;
+    font-style: italic;
+}
+
+.specialLink:hover {
+    color: #ffffff;
+    font-style: normal;
+}
+
+@media only screen and (max-width: 576px) {
+    #p p {
+        font-size: 1rem;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #p p {
+        font-size: 2rem;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #p p {
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    #p p {
+        font-size: 4rem;
+        text-align: center;
+        vertical-align: middle;
+    }
+}

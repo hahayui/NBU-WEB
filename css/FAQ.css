@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#answerSectionBG {
+    min-height: 500px;
+}
+
+#answerSection {
+    background: #ffffff;
+}
+
+#questionMark {
+    font-size: 15rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+footer {
+    background-color: #343A40;
+}
+
+.imgSocial {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.imgSocial a {
+    padding: 0px 5px;
+    text-decoration: none;
+}
+
+
+/*@media only screen and (max-width: 576px) {
+    #questionMark p {
+        font-size: 5rem;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #questionMark p {
+        font-size: 9rem;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #questionMark p {
+        font-size: 13rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    #questionMark p {
+        font-size: 15rem;
+        text-align: center;
+        vertical-align: middle;
+    }
+}*/
